@@ -1,0 +1,92 @@
+﻿
+@{
+    ViewBag.Title = "Timeslot";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Styles/timeslot textcolor.css" rel="stylesheet" />
+<style>
+    body {
+      
+        background-image: url('../../Images/Others/timeslot.jpg');
+        height: 100%;
+        /*background-position: center;*/
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+<h1 class="text-success" align="center">Timeslot</h1>
+
+<!DOCTYPE html>
+<html>
+<body class="text-danger">
+
+    <div align="center">
+        <form action="/action_page.php">
+            SelectDate: <input type="date" name="calender" class="text-warning btn btn-warning" min="2019-02-26" max="2019-03-02">
+            
+        </form>
+       
+        <table>
+            <tr>
+                <td>
+                    INOX
+                <td>
+
+                    <input type="checkbox" name="a">11:00
+                    <input type="checkbox" name="a">03:00
+                    <input type="checkbox" name="a">07:00
+                    <input type="checkbox" name="a">10:00
+                </td>
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    MULTIPLEX
+                    <br>
+                <td>
+                    <input type="checkbox" name="a">11:00
+                    <input type="checkbox" name="a">03:00
+                    <input type="checkbox" name="a">07:00
+                    <input type="checkbox" name="a">10:00
+                </td>
+            </tr></td>
+            <br>
+            <tr>
+                <td>
+                    ASIAN
+                    <br>
+                <td>
+                    <input type="checkbox" name="a">11:00
+                    <input type="checkbox" name="a">03:00
+                    <input type="checkbox" name="a">07:00
+                    <input type="checkbox" name="a">10:00
+                </td>
+            </tr></td>
+            <br>
+            <tr>
+                <td>
+                    CARNIVALS
+                    <br>
+                <td>
+                    <input type="checkbox" name="a">11:00
+                    <input type="checkbox" name="a">03:00
+                    <input type="checkbox" name="a">07:00
+                    <input type="checkbox" name="a">10:00
+                </td>
+            </tr></td>
+        </table>
+        <br>
+    </div>
+    @*<input type="submit" value="BookTickets" class="text-warning btn btn-success">*@
+</body>
+</html>
+<center>
+    <a href="http://localhost:57765/Seat/Ticket"
+       class="btn btn-success avail-row-btn" role="button" target="_blank">BookTickets</a>
+</center>
+
+<br />
+<br />
+<br />
+<br />

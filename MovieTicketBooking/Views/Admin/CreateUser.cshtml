@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "CreateUser";
+}
+
+<h2>CreateUser</h2>
+
+@using (Html.BeginForm("CreateUser", "Admin", FormMethod.Post))
+{
+    <div class="row">
+        <div class="col-md-6">
+            <label class="control-label">User Email</label>
+            <input type="text" name="txtEmail" class="form-control" />
+        </div>
+        <div class="col-md-6">
+            <label class="control-label">Password</label>
+            <input type="text" name="txtPassword" class="form-control" />
+        </div>
+        <div class="col-md-6">
+            <input type="submit" class="btn btn-primary" value="Save" />
+
+        </div>
+    </div>
+
+}
+
