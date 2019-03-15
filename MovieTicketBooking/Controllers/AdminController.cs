@@ -22,10 +22,10 @@ namespace MovieTicketBooking.Controllers
         {
             return View();
         }
-        public ActionResult Home()
-        {
-            return View();
-        }
+        //public ActionResult Home()
+        //{
+        //    return View();
+        //}
         public ActionResult CreateUser()
         {
             return View();

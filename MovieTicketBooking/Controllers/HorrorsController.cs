@@ -13,7 +13,7 @@ namespace MovieTicketBooking.Controllers
     [Authorize(Roles = "Admin")]
     public class HorrorsController : Controller
     {
-        private ActionContext db = new ActionContext();
+        private Training_12DecMumbaiEntities8 db = new Training_12DecMumbaiEntities8();
 
         // GET: Horrors
         [HandleError]

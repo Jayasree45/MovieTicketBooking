@@ -13,7 +13,7 @@ namespace MovieTicketBooking.Controllers
     [Authorize(Roles = "Admin")]
     public class FamiliesController : Controller
     {
-        private ActionContext db = new ActionContext();
+        private Training_12DecMumbaiEntities10 db = new Training_12DecMumbaiEntities10();
 
         // GET: Families
         [HandleError]

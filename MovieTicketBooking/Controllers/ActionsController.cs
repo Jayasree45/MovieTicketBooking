@@ -10,11 +10,11 @@ using MovieTicketBooking.Models;
 
 namespace MovieTicketBooking.Controllers
 {
-    [Authorize(Roles ="Admin")]
+    //[Authorize(Roles ="Admin")]
     public class ActionsController : Controller
     {
         
-        private ActionContext db = new ActionContext();
+        private Training_12DecMumbaiEntities5 db = new Training_12DecMumbaiEntities5();
 
         // GET: Actions
         [HandleError]

@@ -80,10 +80,13 @@
 
                     </div>
                     <!-- <label>
-                      <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
-                    </label> -->
-                    <a href="http://localhost:57765/FeedBack/Rating"
-                       class="btn btn-success avail-row-btn" role="button">Continue to checkout</a>
+      <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+    </label> -->
+                    @*<a href="http://localhost:57765/FeedBack/Rating"
+                       class="btn btn-success avail-row-btn" role="button">Continue to checkout</a>*@
+
+                    @*<input id="Button1" type="button" value="button" onclick="window.location.href" />*@
+                    <button style="width:80px;height:40px;background-color:darkseagreen" onclick="window.location=('@Url.Action("Rating", "FeedBack")')">Next</button>
                     <a href="http://localhost:57765/Seat/Ticket"
                        class="btn btn-success avail-row-btn" role="button">Back</a>
                 </form>
